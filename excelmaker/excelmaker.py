@@ -6,10 +6,11 @@ class ExcelFileMakerClass:
 
     def __init__(self):
         """
-        Создает выходной excel файл\n
-        Использует header из файла config.py как шапку таблицы\n
-        Использует width_list из файла config.py как параметры шапки\n
-        Использует excel_file_name из файла config.py как имя выходного файла excel\n
+        Инициализатор.
+        Создает выходной excel файл.
+        Использует header из файла config.py как шапку таблицы.
+        Использует width_list из файла config.py как параметры шапки.
+        Использует excel_file_name из файла config.py как имя выходного файла excel.
         __workbook - рабочий файл
         __sheet - рабочий лист
         """
@@ -35,7 +36,7 @@ class ExcelFileMakerClass:
 
     def __set_table(self, table):
         """
-        Записывает данные в таблицу excel\n
+        Записывает данные в таблицу excel.
         table - список данных (таблица)
         """
         for row in table:
@@ -44,8 +45,8 @@ class ExcelFileMakerClass:
 
     def create_file(self, table):
         """
-        Записывает данные в таблицу\n
-        Устанавливает параметры шапки\n
+        Записывает данные в таблицу.
+        Устанавливает параметры шапки.
         Сохраняет выходной файл 
         """
         self.__set_table(table)
