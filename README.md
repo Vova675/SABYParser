@@ -24,5 +24,5 @@
 ## Классы
 1. Файл __parser\parser.py__ содержит класс __ParserClass__, который используется для считывания данных из HTML разметки
 2. Файл __excelmaker\excelmaker.py__ содержит класс __ExcelFileMakerClass__, который используется для создание __Excel__ файла
-3. Файл __adsender\adsender.py__ содержит класс __ExcelFileMakerClass__, который используется для отправки __Excel__ документа по почте
+3. Файл __adsender\adsender.py__ содержит класс __LetterAbsenderClass__, который используется для отправки __Excel__ документа по почте
 
